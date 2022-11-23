@@ -1,0 +1,22 @@
+Observer pattern
+
+Weather station -> they collect data from iot devices
+temperature, pressure & humidity
+
+Display devices
+	1. Current Conditions
+	2. Forecast
+	
+Newspaper - Publisher(Subject) <--- Subscribe/ Unsubscribe(Observer)
+
+Subject <-- register Observer
+
+SD looking for a job
+Naukri/Monster <---- subscribe/ unsubscribe
+
+When 2 objects are loosely coupled, they can interact but
+have very little knowledge of each other
+
+The observer pattern defines a one-to-many dependency 
+between objects so that when one object changes state,
+all of its dependent are notified automatically
